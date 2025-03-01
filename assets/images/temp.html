@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .icon img {
+    filter: brightness(0) saturate(100%) invert(34%) sepia(72%) saturate(659%) hue-rotate(180deg);
+}
+
+/* Optionally, change color on hover */
+.icon-box:hover .icon img {
+    filter: brightness(0) saturate(100%) invert(34%) sepia(72%) saturate(659%) hue-rotate(180deg);
+}
+</style>
+<body>
+    <div class="icon-box">
+        <div class="icon" style="max-width: 100%; /* Icon will not overflow its container */
+        height: auto;"><img src="service-ai.svg" alt="icon"></div>
+        <h4 class="title"><a href="" class="stretched-link">AI-Powered Solutions</a></h4>
+        <p>Integrating AI technologies to automate and enhance workflows.</p>
+        <div class="hover-bg"></div>
+
+    </div>
+
+    <div class="icon-box">
+        <div class="icon"><img src="service-responsive.svg" alt="icon">
+        </div>
+        <h4 class="title"><a href="" class="stretched-link">Mobile-Friendly Website Design</a>
+        </h4>
+        <p>Ensuring seamless user experience across all devices.</p>
+        <div class="hover-bg"></div>
+
+    </div>
+
+    <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="800">
+        <div class="icon-box">
+            <div class="icon"><img src="service-socialmedia.svg" alt="icon">
+            </div>
+            <h4 class="title"><a href="" class="stretched-link">Social Media Integration</a></h4>
+            <p>Seamlessly connect your website with social media platforms.</p>
+            <div class="hover-bg"></div>
+
+        </div>
+
+    </div>
+</body>
+</html>
